@@ -1,0 +1,36 @@
+.container {
+  max-width: 400px;
+  margin: 4rem auto;
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  background-color: #C89F94;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}

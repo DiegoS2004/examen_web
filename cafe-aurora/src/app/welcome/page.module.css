@@ -1,0 +1,16 @@
+.container {
+    text-align: center; /* Centra el contenido dentro del main */
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .centeredImage {
+    max-width: 50%; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: 20px auto; /* Espaciado superior e inferior y centrado horizontal */
+    display: block; /* Asegura que la imagen sea un bloque para centrarla */
+  }
